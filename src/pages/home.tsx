@@ -5,27 +5,28 @@ export default function Home() {
   return (
     <div className="flex-1">
       {/* Hero Section */}
-      <section className="relative py-20 px-6 bg-[#37474f]">
+      <section className="relative py-20 px-6 bg-secondary">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1 space-y-6">
               <h1 className="text-4xl md:text-6xl font-bold text-white">
-                Healthy, Fresh Dog Food <span className="text-primary">Made Simple</span>
+                Homemade Fresh Dog Food, <span className="text-primary">Made Simple</span>
               </h1>
-              <p className="text-lg text-white/80">
-                Premium nutrition packs tailored to your dog's needs. Made with fresh, human-grade ingredients.
+              <p className="text-xl text-white/90">
+                Proper nutrition is not a privilege, but a fundamental necessity for every dog
               </p>
+              <p></p>
               <Link href="/waitlist">
-                <Button className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-white font-medium">
+                <Button variant="link" className="text-lg px-6 py-6 bg-primary hover:bg-primary/90 text-secondary font-semibold rounded-sm">
                   Join Waitlist
                 </Button>
               </Link>
             </div>
             <div className="flex-1">
               <img 
-                src="https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6"
-                alt="Happy Shiba Inu"
-                className="rounded-lg"
+                src="https://plus.unsplash.com/premium_photo-1683141107194-61e40e327e2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="adult chocolate labrador retriever"
+                className="rounded-md"
               />
             </div>
           </div>
@@ -36,14 +37,13 @@ export default function Home() {
       <section className="py-20 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4 text-[#37474f]">
+            <h2 className="text-4xl font-bold mb-4 text-secondary">
               Why Choose Grublify?
             </h2>
-            <p className="text-lg text-[#37474f]/80">
+            <p className="text-lg text-secondary/80">
               We're revolutionizing dog nutrition with science-backed, fresh ingredients
             </p>
           </div>
-
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
@@ -62,7 +62,7 @@ export default function Home() {
                 image: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0"
               }
             ].map((feature, index) => (
-              <div key={index} className="bg-primary p-6 rounded-lg">
+              <div key={index} className="bg-primary/60 p-6 rounded-lg">
                 <img 
                   src={feature.image}
                   alt={feature.title}
@@ -81,9 +81,9 @@ export default function Home() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 px-6 bg-[#37474f]">
+      <section className="py-20 px-6 bg-secondary">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-12 text-primary">
+          <h2 className="text-4xl font-bold mb-12 text-primary">
             Your Dog Deserves The Best
           </h2>
           <div className="grid md:grid-cols-4 gap-8">

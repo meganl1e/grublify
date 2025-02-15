@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="flex-1">
       {/* Mission Section */}
-      <section className="py-20 px-6 bg-gradient-to-b from-[#37474f] to-[#37474f]/90">
+      <section className="py-20 px-6 bg-gradient-to-b from-secondary to-secondary/90">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold mb-6 text-white">
@@ -49,7 +49,7 @@ export default function About() {
       {/* Process Section */}
       <section className="py-20 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-16 text-[#37474f]">
+          <h2 className="text-3xl font-bold text-center mb-16 text-secondary">
             Our Process
           </h2>
 
@@ -80,7 +80,7 @@ export default function About() {
                 <h3 className="text-xl font-semibold mb-2 text-primary">
                   {step.title}
                 </h3>
-                <p className="text-[#37474f]/80">
+                <p className="text-secondary/80">
                   {step.description}
                 </p>
               </div>

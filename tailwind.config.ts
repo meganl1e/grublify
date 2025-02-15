@@ -1,10 +1,10 @@
 import type { Config } from "tailwindcss";
 
 export default {
-  darkMode: ["class"],
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: ["class"], // enables dark mode when a dark class is applied to an html element
+  content: ["./src/**/*.{js,jsx,ts,tsx}"], // tells tailwind where to look for class names in project files
   theme: {
-    extend: {
+    extend: { // this is where most customization happens
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

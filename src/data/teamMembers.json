@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Mackenzie Hsiao",
+    "role": "CEO",
+    "image": "/images/mackenzie.jpg",
+    "bio": "Strategy @ Accenture, startup advisor, Berkeley alum"
+  },
+  {
+    "name": "Megan Lie",
+    "role": "COO & CTO",
+    "image": "/images/megan.JPG",
+    "bio": "Founding engineer, former Boeing, Berkeley alum"
+  },
+  {
+    "name": "Creed",
+    "role": "Chief Taste Test Officer",
+    "image": "images/creed.jpg",
+    "bio": "Canine culinary expert, always hungry"
+  }
+]

@@ -3,5 +3,5 @@
   "primary": "hsl(168, 53%, 62%)",
   "appearance": "light",
   "radius": 0.75,
-  "secondary": "#37474f"
+  "secondary": "hsl(203, 34%, 26%)"
 }

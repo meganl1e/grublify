@@ -1,5 +1,7 @@
 import { QueryClient, QueryFunction } from "@tanstack/react-query";
 
+// checks if a fetcch response is successful
+// if not, throws an error
 async function throwIfResNotOk(res: Response) {
   if (!res.ok) {
     const text = (await res.text()) || res.statusText;
@@ -7,6 +9,7 @@ async function throwIfResNotOk(res: Response) {
   }
 }
 
+// uses fetch api to make api requests and handles json data
 export async function apiRequest(
   method: string,
   url: string,
@@ -23,6 +26,7 @@ export async function apiRequest(
   return res;
 }
 
+// creates a custom query function, fetches data based on query key
 type UnauthorizedBehavior = "returnNull" | "throw";
 export const getQueryFn: <T>(options: {
   on401: UnauthorizedBehavior;

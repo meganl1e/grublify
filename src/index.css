@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
 
+:root {
+  --primary: 168 53% 62%;
+  --secondary: 203 34% 26%;
+  /* --secondary: 200 18% 26%; */ /* old secondary color, it's more gray */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
