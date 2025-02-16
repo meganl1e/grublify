@@ -1,4 +1,7 @@
+<<<<<<< HEAD:client/src/pages/team.tsx
 
+=======
+>>>>>>> parent of 2ee557e (backend setup):src/pages/team.tsx
 import teamMembers from '../data/teamMembers.json';
 
 export default function Team() {

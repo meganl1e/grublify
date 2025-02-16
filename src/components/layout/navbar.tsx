@@ -1,7 +1,6 @@
-import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from "../ui/navigation-menu";
+import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from "../../components/ui/navigation-menu";
 import { Link, useLocation } from "wouter";
 import { Button } from "../ui/button";
-import React from "react";
 
 export default function Navbar() {
   const [location] = useLocation();
