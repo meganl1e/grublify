@@ -8,7 +8,6 @@ import { Input } from "../components/ui/input";
 import { Textarea } from "../components/ui/textarea";
 import { Button } from "../components/ui/button";
 import { useToast } from "../hooks/use-toast";
-import { apiRequest } from "../lib/queryClient";
 
 export default function Waitlist() {
   const { toast } = useToast();
@@ -24,7 +23,18 @@ export default function Waitlist() {
 
   const mutation = useMutation({
     mutationFn: async (data: InsertWaitlist) => {
-      await apiRequest("POST", "/api/waitlist", data);
+      const response = await fetch('http://localhost:3000/api/waitlist-form', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: 
+        JSON.stringify(data),
+      });
+      if (!response.ok) {
+        throw new Error('network response was not ok');
+      }
+      return response.json()
     },
     onSuccess: () => {
       toast({
