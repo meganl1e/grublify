@@ -1,3 +1,4 @@
+import React from 'react';
 import teamMembers from '../data/teamMembers.json';
 
 export default function Team() {
