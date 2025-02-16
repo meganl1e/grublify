@@ -1,8 +1,5 @@
-<<<<<<< HEAD:client/src/pages/blog.tsx
 
 
-=======
->>>>>>> parent of 2ee557e (backend setup):src/pages/blog.tsx
 export default function Blog() {
   return (
     <div className="flex-1">

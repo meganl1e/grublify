@@ -1,8 +1,5 @@
 import { useForm } from "react-hook-form";
-<<<<<<< HEAD:client/src/pages/waitlist.tsx
 
-=======
->>>>>>> parent of 2ee557e (backend setup):src/pages/waitlist.tsx
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
 import { insertWaitlistSchema, type InsertWaitlist } from "../shared/schema";
