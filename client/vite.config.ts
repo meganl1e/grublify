@@ -21,4 +21,9 @@ export default defineConfig({
     outDir: path.resolve(__dirname, "dist"), // Adjust output directory if needed
     emptyOutDir: true,
   },
+  css: {
+    modules: {
+      localsConvention: 'camelCaseOnly'
+    }
+  }
 });
