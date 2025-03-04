@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 
-import { zodResolver } from "@hookform/resolvers/zod";
+import { zodResolver } from "@hookform/resolvers/zod"; // validates form data against a predefined schema (insertWaitlistSchema)
 import { useMutation } from "@tanstack/react-query";
 import { insertWaitlistSchema, type InsertWaitlist } from "../shared/schema";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../components/ui/form";
@@ -63,11 +63,13 @@ export default function Waitlist() {
             <p className="text-lg text-muted-foreground mb-8">
               Be among the first to give your dog the nutrition they deserve. Sign up for early access and exclusive updates.
             </p>
-            <img 
-              src="https://images.unsplash.com/photo-1472586662442-3eec04b9dbda"
-              alt="Happy dog"
-              className="rounded-lg shadow-xl"
-            />
+            <div className="w-full h-90 overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1581888227599-779811939961?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Happy dog"
+                className="rounded-md shadow-xl object-cover w-full h-full"
+              />
+            </div>
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-sm">
