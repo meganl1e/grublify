@@ -43,37 +43,6 @@ export default function Waitlist() {
     }
   })
 
-  // const mutation = useMutation({
-  //   mutationFn: async (data: InsertWaitlist) => {
-  //     const response = await fetch('http://localhost:3000/api/waitlist-form', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //       },
-  //       body: 
-  //       JSON.stringify(data),
-  //     });
-  //     if (!response.ok) {
-  //       throw new Error('network response was not ok');
-  //     }
-  //     return response.json()
-  //   },
-  //   onSuccess: () => {
-  //     toast({
-  //       title: "Successfully joined waitlist!",
-  //       description: "We'll be in touch soon with updates.",
-  //     });
-  //     form.reset();
-  //   },
-  //   onError: () => {
-  //     toast({
-  //       variant: "destructive",
-  //       title: "Error joining waitlist",
-  //       description: "Please try again later.",
-  //     });
-  //   }
-  // });
-
   return (
     <div className="flex-1 py-20 px-6">
       <div className="max-w-7xl mx-auto">
