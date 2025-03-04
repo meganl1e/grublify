@@ -6,7 +6,7 @@ interface WaitlistFormData {
   // Define the properties of your form data
   name: string;
   email: string;
-  message: string;
+  message: string | undefined;
   // Add other properties as needed
 }
 
