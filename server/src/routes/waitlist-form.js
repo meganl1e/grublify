@@ -9,6 +9,7 @@ const router = express.Router();
 // POST route to handle form submissions
 router.post('/', async (request, response) => {
   const { name, email, message } = request.body;
+  console.log('Received data:', { name, email, message }); // Log received data
 
   try {
     const newFormEntry = new waitlistForm({ name, email, message });
@@ -20,5 +21,9 @@ router.post('/', async (request, response) => {
     response.status(500).json({ message: 'Error saving form data', error });
   }
 });
+
+router.get('/', (request, response) => {
+  response.end("hello from the waitlist api")
+})
 
 module.exports = router;

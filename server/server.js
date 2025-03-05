@@ -12,10 +12,17 @@ dotenv.config();
 const PORT = process.env.PORT || 5000;
 const url = process.env.MONGODB_URI
 
-app.use(cors());
+// app.use(cors());
 
+app.use(cors({
+  origin: 'https://www.grublify.com',
+  methods: ['GET', 'POST', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
 app.use(express.json());
+
+
 
 // connecting to mongoose
 mongoose.connect(url)
@@ -35,6 +42,10 @@ app.get('/', (req, res) => {
 // when a request is made to any url that starts with /api/waitlist-form,
 // express will pass control to waitlistFormRouter
 app.use('/api/waitlist-form', waitlistFormRouter);
+
+// app.listen(PORT, () => {
+//   console.log(`Server is running on port ${PORT}`);
+// });
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
