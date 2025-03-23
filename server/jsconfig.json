@@ -6,5 +6,5 @@
     "strict": true,
     "esModuleInterop": true
   },
-  "include": ["src/**/*", "server.js"]
+  "include": ["src/**/*", "index.js", "controllers", "models", "routes"]
 }

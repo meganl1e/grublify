@@ -27,14 +27,16 @@ export default function Waitlist() {
 
   const mutation = useMutation({
     mutationFn: waitlistService.create,
-    onSuccess: () => {
+    onSuccess: (data) => {
+      console.log("Success response:", data);
       toast({
         title: "Successfully joined waitlist!",
         description: "We'll be in touch soon with updates.",
       })
       form.reset()
     },
-    onError: () => {
+    onError: (error) => {
+      console.log("Error details: ", error)
       toast({
         variant: "destructive",
         title: "Error joining waitlist",

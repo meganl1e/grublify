@@ -10,7 +10,8 @@ export const waitlist = pgTable("waitlist", {
 });
 
 export const insertWaitlistSchema = createInsertSchema(waitlist).extend({
-  email: z.string().email(),
+  // email: z.string().email(),
+  email: z.string().min(2),
   name: z.string().min(2),
   message: z.string().optional()
 });
