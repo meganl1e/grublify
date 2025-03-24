@@ -16,6 +16,9 @@ const waitlistSchema = new Schema(
       type: String,
       default: 'No message provided'
     },
+  },
+  {
+    timestamps: true,
   }
 );
 

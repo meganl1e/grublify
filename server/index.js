@@ -19,7 +19,7 @@ app.use(express.json());
 
 // main
 app.get('/', (req, res) => {
-  res.send('Hello from the backend!');
+  res.send('Hello from the backend! this is the backend for grublify');
 });
 
 app.use('/api/waitlist-form', waitlistRouter);
