@@ -1,5 +1,6 @@
 // may delete this section later
 // rn it's on the homepage and it was given to me by replit
+import React from "react";
 
 import { Button } from "../ui/button";
 import { Link } from "wouter";

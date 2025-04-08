@@ -7,9 +7,9 @@ export default function Navbar() {
 
   const links = [
     { href: "/", label: "Home" },
-    // { href: "/about", label: "About" },
+    { href: "/team", label: "Team" },
     { href: "/blog", label: "Blog"},
-    { href: "/team", label: "Team" }
+    { href: "/recipes", label: "Recipes"},
   ];
 
   return (
@@ -17,8 +17,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link href="/">
           <a className="flex items-center space-x-2">
-            <img src="/images/grublify_logo.png" alt="Grublify Logo" className="h-8 w-auto mr-2" />
-            <a className="text-3xl font-bold text-primary hover:text-primary/90 transition-colors">
+            <img src="/images/grublify_logo_simple.png" alt="Grublify Logo" className="h-8 w-auto mr-2" />
+            <a className="text-3xl font-semibold text-primary hover:text-primary/90 transition-colors">
               Grublify
             </a>
           </a>
