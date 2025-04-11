@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from './Image';
 
 const RecipeListItem = ({ post = {} }) => {
   // Default placeholder values
@@ -9,16 +10,17 @@ const RecipeListItem = ({ post = {} }) => {
     user = { username: "Megan Lie" },
     createdAt = new Date().toISOString(),
     desc = "This is a short description of the recipe. It gives a quick overview of what the recipe is about.",
+    img_path = "chicken-and-rice-9.jpeg",
   } = post;
 
   return (
     <div className="flex flex-col gap-4">
       {/* Image */}
       <div className="w-full">
-        <img
-          src={img}
-          alt={title}
-          className="w-full rounded-2xl object-cover"
+        <Image
+          src={img_path}
+          className="w-full h-64 object-cover rounded-2xl"
+          alt="recipe image"
         />
       </div>
 

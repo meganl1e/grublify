@@ -17,18 +17,21 @@ export default function aiBenefit() {
 
             <section className="flex flex-col md:flex-row items-center gap-12">
               <div className="flex-1">
-                <img 
-                  src="https://plus.unsplash.com/premium_photo-1683141107194-61e40e327e2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="woman "
-                  className="rounded-md"
-                />
+                <div className="h-[300px] overflow-hidden rounded-md">
+                  <img 
+                    src="https://images.unsplash.com/photo-1634898635164-fbe5425b9d86?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="woman"
+                    className="w-full h-full object-cover object-bottom"
+                  />
+                </div>
+
               </div>
               <div className="flex-1 space-y-6">
                 <h1 className="text-3xl font-medium text-secondary/90">
                   Custom recipes for your pup
                 </h1>
                 <p className="text-xl text-secondary/80">
-                  AI-powered recipes and nutrition packs for complete, balanced meals
+                  Easy homemade recipes and nutrition packs for complete, balanced meals
                 </p>
               </div>
             </section>
@@ -44,7 +47,7 @@ export default function aiBenefit() {
               </div>
               <div className="flex-1">
                 <img 
-                  src="https://plus.unsplash.com/premium_photo-1683141107194-61e40e327e2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="https://plus.unsplash.com/premium_photo-1718652417723-9a2bf74e28c3?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="woman "
                   className="rounded-md"
                 />

@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <div className="flex-1">
       {/* Hero Section */}
-      <section className="relative py-20 px-6 bg-secondary">
+      <section className="relative py-12 lg:py-20 px-6 bg-secondary">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1 space-y-6">
@@ -17,7 +17,7 @@ export default function Hero() {
                 Homemade Fresh Dog Food <span className="text-primary">Made Simple</span>
               </h1>
               <p className="text-xl text-white/90">
-                Personalized AI-powered recipes and essential nutrition packs for complete, balanced canine diets
+                Easy personalized recipes and essential nutrition packs for complete, balanced canine diets
               </p>
               <p></p>
               <Link href="/waitlist">
