@@ -63,7 +63,7 @@ export default function Navbar() {
         </NavigationMenu>
       </div>
 
-      {/* Mobile Menu (Dropdown) */}
+      {/* MOBILE MENU */}
       <div
         className={`lg:hidden overflow-hidden transition-all duration-300 ${
           open ? "max-h-screen" : "max-h-0"
@@ -76,7 +76,7 @@ export default function Navbar() {
                 className={`block px-1 py-2 text-lg font-semibold transition-colors hover:text-primary ${
                   location === link.href ? "text-primary" : "text-white/90"
                 }`}
-                onClick={() => setOpen(false)} // Close menu on link click
+                onClick={() => setOpen(false)}
               >
                 {link.label}
               </a>

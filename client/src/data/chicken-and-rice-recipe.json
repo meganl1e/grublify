@@ -1,0 +1,120 @@
+{
+  "name": "Chicken & Rice",
+  "description": "A healthy and delicious chicken-based meal for your dog.",
+  "image": "https://plus.unsplash.com/premium_photo-1683141107194-61e40e327e2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "ingredients": [
+    "XX chicken breast (boneless and skinless)",
+    "XX brown rice (uncooked)",
+    "XX water",
+    "XX spinach (roughly chopped)",
+    "XX carrots (1/4 inch chunks)",
+    "XX large eggs",
+    "XX low/no sodium canned sardines (drained)",
+    "XX sunflower oil",
+    "XX of Grublify Nutrition Pack"
+  ],
+  "consumptionAndStorage": "This recipe makes 1.6 meals at appx. 631g (2.4 cups) per meal (assuming 1 meal/day). Store in an airtight container in the refrigerator for up to 3 days or freeze portions for up to 1 month.",
+  "nutritionalInfo": "Serving: 1.6 | Calories: 1,034kcal | Protein: 143g | Fat: 31g |  Calcium: 1.5g | Zinc: 24mg | Iron: 12mg | Copper: 2.2mg | Iodine: 0.28mg | Vitamin A: 1250 IU | Vitamin D: 125 IU | Vitamin E: 50 IU | Vitamin B1: 2.8 mg | Vitamin B2: 3.9mg | Vitamin B12: 0.035mg",
+  "methods": {
+    "pressureCooker": {
+      "prepTime": "10 min",
+      "cookTime": "30 min",
+      "totalTime": "40 min",
+      "instructions": [
+        "Optional: Rinse rice to remove excess starch.",
+        "Add chicken, rice, water, spinach, carrots, and eggs to the pressure cooker. Stir until evenly combined.",
+        "Pressure cook on high for 13 minutes with natural release or until chicken is tender.",
+        "Let the cooked ingredients cool (~5 min). Break up any large chunks of chicken.",
+        "Mix sardines, oil, and the nutrition pack in a separate bowl, then combine with the cooked ingredients.",
+        "Serve to your doggo — ‘Bone’ appétit!"
+      ]
+    },
+    "crockpot": {
+      "prepTime": "10 min",
+      "cookTime": "5 hours",
+      "totalTime": "5 hours 10 min",
+      "instructions": [
+      "Optional: Rinse rice to remove excess starch.",
+      "Add chicken, rice, water, spinach, carrots, and eggs to the Crockpot. Stir until evenly combined.",
+      "Cook on low for 6-8 hours or high for 3-4 hours or until chicken is tender.",
+      "Let the cooked ingredients cool (~5 min). Break up any large chunks of chicken.",
+      "Mix sardines, oil, and the nutrition pack in a separate bowl, then combine with the cooked ingredients.",
+      "Serve to your doggo — ‘Bone’ appétit!"
+      ]
+    },
+    "stovetop": {
+      "prepTime": "20 min",
+      "cookTime": "40 min",
+      "totalTime": "1 hour",
+      "instructions": [
+      "Optional: Rinse rice to remove excess starch.",
+      "Boil water in a large pot and add rice. Cook until tender (~15 min).",
+      "In a separate pan, cook chicken until fully done. Add spinach and carrots to the pan and sauté.",
+      "Combine cooked rice, chicken, and vegetables in the pot. Stir well.",
+      "Mix sardines, oil, and the nutrition pack in a separate bowl, then combine with the cooked ingredients.",
+      "Serve to your doggo — ‘Bone’ appétit!"
+      ]
+    }
+  },
+  "detailedInstructions": [
+    {
+      "title": "Preparation",
+      "images": [
+        "chicken-and-rice-1.jpeg"
+      ],
+      "text": [
+        "Rinse the rice to remove excess starch. This step is optional but can help improve the texture of the rice. Gather all your ingredients: chicken, rice, water, spinach, carrots, and eggs."
+      ]
+    },
+    {
+      "title": "Cooking",
+      "images": [
+        "chicken-and-rice-2.jpeg",
+        "chicken-and-rice-3.jpeg"
+      ],
+      "text": [
+        "Pressure Cooker: Add all the ingredients to the pressure cooker and stir until evenly combined. Pressure cook on high for 13 minutes with natural release or until the chicken is tender.",
+        "Crockpot: Add all the ingredients to the crockpot and stir until evenly combined. Cook on low for 6–8 hours or high for 3–4 hours until the chicken is tender.",
+        "Stovetop: Boil water in a large pot and add rice. Cook until tender (about 15 minutes). In a separate pan, cook chicken until fully done, then sauté spinach and carrots with the chicken. Combine the cooked rice, chicken, and vegetables in the pot and stir well."
+      ]
+    },
+    {
+      "title": "Cooling",
+      "images": [
+        "chicken-and-rice-4.jpeg",
+        "chicken-and-rice-5.jpeg"
+      ],
+      "text": [
+        "Let the cooked ingredients cool for about 5 minutes. Break up any large chunks of chicken into smaller pieces to make them easier for your dog to eat."
+      ]
+    },
+    {
+      "title": "Mixing",
+      "images": [
+        "chicken-and-rice-6.jpeg",
+        "chicken-and-rice-7.jpeg"
+      ],
+      "text": [
+        "In a separate bowl, mix sardines, oil, and the nutrition pack. Combine this mixture with the cooked ingredients from your chosen method."
+      ]
+    },
+    {
+      "title": "Serving",
+      "images": [
+        "chicken-and-rice-8.jpeg"
+      ],
+      "text": [
+        "Measure out the appropriate serving size for your dog and feed the hungry doggo. 'Bone'- appétit!"
+      ]
+    },
+    {
+      "title": "Treating",
+      "images": [
+        "chicken-and-rice-9.jpeg"
+      ],
+      "text": [
+        "Optional: Let your doggo lick the spoon!"
+      ]
+    }
+  ]
+}
