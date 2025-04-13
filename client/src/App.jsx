@@ -26,7 +26,7 @@ function Router() {
         <Route path="/team" component={Team} />
         <Route path="/recipes" component={Recipes} />
         <Route path="/waitlist" component={Waitlist} />
-        <Route path="/recipes/:slug" component={Recipe} />
+        <Route path="/recipes/chicken-and-rice" component={Recipe} />
         <Route component={NotFound} />
       </Switch>
       <Footer />
