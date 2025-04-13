@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../components/Image";
+import Image from "../components/image.jsx";
 import RecipeCard from "../components/recipe-card";
 import chickenAndRiceRecipe from "../data/chicken-and-rice-recipe.json";
 import RecipeDetailedInstructions from "../components/recipe-detailed-instructions";

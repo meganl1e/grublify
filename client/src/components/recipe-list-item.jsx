@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from './Image';
+import Image from './image';
 
 const RecipeListItem = ({ post = {} }) => {
   // Default placeholder values
@@ -8,8 +8,8 @@ const RecipeListItem = ({ post = {} }) => {
     title = "Chicken & Rice",
     slug = "chicken-and-rice",
     user = { username: "Megan Lie" },
-    createdAt = new Date().toISOString(),
-    desc = "This is a short description of the recipe. It gives a quick overview of what the recipe is about.",
+    createdAt = "4/1/2025",
+    desc = "Easy to make and delicious recipe that pairs with the Grublify Nutrition Pack!",
     img_path = "chicken-and-rice-9.jpeg",
   } = post;
 

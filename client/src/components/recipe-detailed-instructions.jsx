@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Image from "./Image";
 import chickenAndRiceRecipe from "../data/chicken-and-rice-recipe.json";
+import Image from "./image.jsx";
 
 // everything is hardcoded for now rip
 const RecipeDetailedInstructions = () => {
