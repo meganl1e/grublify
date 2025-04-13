@@ -3,18 +3,18 @@
   "description": "A healthy and delicious chicken-based meal for your dog.",
   "image": "https://plus.unsplash.com/premium_photo-1683141107194-61e40e327e2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "ingredients": [
-    "XX chicken breast (boneless and skinless)",
-    "XX brown rice (uncooked)",
-    "XX water",
-    "XX spinach (roughly chopped)",
-    "XX carrots (1/4 inch chunks)",
-    "XX large eggs",
-    "XX low/no sodium canned sardines (drained)",
-    "XX sunflower oil",
-    "XX of Grublify Nutrition Pack"
+    "450g (1lb | ~2 medium breasts) chicken breast (boneless and skinless)",
+    "41g (3.5 tbsp) brown rice (uncooked)",
+    "295mL (1.25 cups) water",
+    "81.5g (1 cup) spinach (roughly chopped)",
+    "65.2g (2/3 cup) carrots (1/4 inch chunks)",
+    "2 large eggs",
+    "40.7g (~2/3 can of 3.75oz can) low/no sodium canned sardines (drained)",
+    "6.2mL (1.25 tsp) sunflower oil",
+    "21g (5 tsp) of Grublify Nutrition Pack"
   ],
-  "consumptionAndStorage": "This recipe makes 1.6 meals at appx. 631g (2.4 cups) per meal (assuming 1 meal/day). Store in an airtight container in the refrigerator for up to 3 days or freeze portions for up to 1 month.",
-  "nutritionalInfo": "Serving: 1.6 | Calories: 1,034kcal | Protein: 143g | Fat: 31g |  Calcium: 1.5g | Zinc: 24mg | Iron: 12mg | Copper: 2.2mg | Iodine: 0.28mg | Vitamin A: 1250 IU | Vitamin D: 125 IU | Vitamin E: 50 IU | Vitamin B1: 2.8 mg | Vitamin B2: 3.9mg | Vitamin B12: 0.035mg",
+  "consumptionAndStorage": "Refer to your recipe in your Grublify package for serving sizes. Contact megan@grublify.com or mackenzie@grublify.com if you need portion sizes for your dog. Store in an airtight container in the refrigerator for up to 3 days or freeze portions for up to 1 month.",
+  "nutritionalInfo": "Serving: XX | Calories: 1,034kcal | Protein: 143g | Fat: 31g |  Calcium: 1.5g | Zinc: 24mg | Iron: 12mg | Copper: 2.2mg | Iodine: 0.28mg | Vitamin A: 1250 IU | Vitamin D: 125 IU | Vitamin E: 50 IU | Vitamin B1: 2.8 mg | Vitamin B2: 3.9mg | Vitamin B12: 0.035mg",
   "methods": {
     "pressureCooker": {
       "prepTime": "10 min",

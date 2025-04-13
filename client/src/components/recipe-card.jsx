@@ -90,7 +90,7 @@ const RecipeCard = ({ recipe }) => {
         </section>
 
         {/* Nutritional Info */}
-        <section className="mb-6">
+        <section className="">
           <h3 className="text-2xl text-secondary font-semibold mb-2">Nutritional Info</h3>
           <p className="text-secondary mb-2">{recipe.nutritionalInfo}</p>
         </section>
