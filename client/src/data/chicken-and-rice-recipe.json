@@ -3,27 +3,87 @@
   "description": "A healthy and delicious chicken-based meal for your dog.",
   "image": "https://plus.unsplash.com/premium_photo-1683141107194-61e40e327e2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "ingredients": [
-    "450g (1lb | ~2 medium breasts) chicken breast (boneless and skinless)",
-    "41g (3.5 tbsp) brown rice (uncooked)",
-    "295mL (1.25 cups) water",
-    "81.5g (1 cup) spinach (roughly chopped)",
-    "65.2g (2/3 cup) carrots (1/4 inch chunks)",
-    "2 large eggs",
-    "40.7g (~2/3 can of 3.75oz can) low/no sodium canned sardines (drained)",
-    "6.2mL (1.25 tsp) sunflower oil",
-    "21g (5 tsp) of Grublify Nutrition Pack"
+    {
+      "name": "chicken breast",
+      "amount_metric": 450,
+      "unit_metric": "g",
+      "amount_imperial": 1,
+      "unit_imperial": "lb",
+      "notes": "raw, boneless, skinless; ~2 medium breasts"
+    },
+    {
+      "name": "brown rice",
+      "amount_metric": 41,
+      "unit_metric": "g",
+      "amount_imperial": 3.5,
+      "unit_imperial": "tbsp",
+      "notes": "uncooked"
+    },
+    {
+      "name": "water",
+      "amount_metric": 295,
+      "unit_metric": "ml",
+      "amount_imperial": 1.25,
+      "unit_imperial": "cups"
+    },
+    {
+      "name": "spinach",
+      "amount_metric": 81.5,
+      "unit_metric": "g",
+      "amount_imperial": 1,
+      "unit_imperial": "cup",
+      "notes": "roughly chopped"
+    },
+    {
+      "name": "carrots",
+      "amount_metric": 65.2,
+      "unit_metric": "g",
+      "amount_imperial": 0.67,
+      "unit_imperial": "cup",
+      "notes": "1/4 inch chunks"
+    },
+    {
+      "name": "eggs",
+      "amount_metric": 2,
+      "unit_metric": " large",
+      "amount_imperial": 2,
+      "unit_imperial": " large"
+    },
+    {
+      "name": "canned sardines",
+      "amount_metric": 40.7,
+      "unit_metric": "g",
+      "amount_imperial": "2/3",
+      "unit_imperial": "can (3.75oz)",
+      "notes": "low/no sodium, drained"
+    },
+    {
+      "name": "sunflower oil",
+      "amount_metric": 6.2,
+      "unit_metric": "ml",
+      "amount_imperial": 1.25,
+      "unit_imperial": "tsp"
+    },
+    {
+      "name": "Grublify Nutrition Pack",
+      "amount_metric": 21,
+      "unit_metric": "g",
+      "amount_imperial": 5,
+      "unit_imperial": "tsp"
+    }
   ],
+    
   "consumptionAndStorage": "Refer to your recipe in your Grublify package for serving sizes. Contact megan@grublify.com or mackenzie@grublify.com if you need portion sizes for your dog. Store in an airtight container in the refrigerator for up to 3 days or freeze portions for up to 1 month.",
   "nutritionalInfo": "Serving: XX | Calories: 1,034kcal | Protein: 143g | Fat: 31g |  Calcium: 1.5g | Zinc: 24mg | Iron: 12mg | Copper: 2.2mg | Iodine: 0.28mg | Vitamin A: 1250 IU | Vitamin D: 125 IU | Vitamin E: 50 IU | Vitamin B1: 2.8 mg | Vitamin B2: 3.9mg | Vitamin B12: 0.035mg",
   "methods": {
     "pressureCooker": {
       "prepTime": "10 min",
-      "cookTime": "30 min",
-      "totalTime": "40 min",
+      "cookTime": "45 min",
+      "totalTime": "55 min",
       "instructions": [
         "Optional: Rinse rice to remove excess starch.",
         "Add chicken, rice, water, spinach, carrots, and eggs to the pressure cooker. Stir until evenly combined.",
-        "Pressure cook on high for 13 minutes with natural release or until chicken is tender.",
+        "Pressure cook on high for 22 minutes with natural release or until chicken is tender.",
         "Let the cooked ingredients cool (~5 min). Break up any large chunks of chicken.",
         "Mix sardines, oil, and the nutrition pack in a separate bowl, then combine with the cooked ingredients.",
         "Serve to your doggo — ‘Bone’ appétit!"
@@ -44,11 +104,11 @@
     },
     "stovetop": {
       "prepTime": "20 min",
-      "cookTime": "40 min",
-      "totalTime": "1 hour",
+      "cookTime": "1 hour 20 min",
+      "totalTime": "1 hour 40 min",
       "instructions": [
       "Optional: Rinse rice to remove excess starch.",
-      "Boil water in a large pot and add rice. Cook until tender (~15 min).",
+      "Boil water in a large pot and add rice. Cook until tender (~45 min).",
       "In a separate pan, cook chicken until fully done. Add spinach and carrots to the pan and sauté.",
       "Combine cooked rice, chicken, and vegetables in the pot. Stir well.",
       "Mix sardines, oil, and the nutrition pack in a separate bowl, then combine with the cooked ingredients.",

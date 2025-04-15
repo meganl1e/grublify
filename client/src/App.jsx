@@ -9,6 +9,7 @@ import Team from "./pages/team";
 import Waitlist from "./pages/waitlist";
 import Recipes from "./pages/recipes";
 import Recipe from "./pages/recipe";
+import TransitionGuide from "./pages/transition-guide";
 import Blog from "./pages/blog";
 import Navbar from "./components/layout/navbar";
 import Footer from "./components/layout/footer";
@@ -27,6 +28,7 @@ function Router() {
         <Route path="/recipes" component={Recipes} />
         <Route path="/waitlist" component={Waitlist} />
         <Route path="/recipes/chicken-and-rice" component={Recipe} />
+        <Route path="/recipes/transition-guide" component={TransitionGuide} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

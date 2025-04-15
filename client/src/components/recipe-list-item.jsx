@@ -1,24 +1,14 @@
 import React from 'react';
 import Image from './image';
 
-const RecipeListItem = ({ post = {} }) => {
-  // Default placeholder values
-  const {
-    img = "https://plus.unsplash.com/premium_photo-1683141107194-61e40e327e2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title = "Chicken & Rice",
-    slug = "chicken-and-rice",
-    user = { username: "Megan Lie" },
-    createdAt = "4/1/2025",
-    desc = "Easy to make and delicious recipe that pairs with the Grublify Nutrition Pack!",
-    img_path = "chicken-and-rice-9.jpeg",
-  } = post;
+const RecipeListItem = ({ title, slug, user, createdAt, desc, img }) => {
 
   return (
     <div className="flex flex-col gap-4">
       {/* Image */}
       <div className="w-full">
         <Image
-          src={img_path}
+          src={img}
           className="w-full h-64 object-cover rounded-2xl"
           alt="recipe image"
         />
@@ -33,7 +23,7 @@ const RecipeListItem = ({ post = {} }) => {
           <span>Written by {user.username}</span>
           <span>{new Date(createdAt).toLocaleDateString()}</span>
         </div>
-        <p>{desc}</p>
+        <p className="text-secondary">{desc}</p>
         <a href={`/recipes/${slug}`} className="underline text-blue-800 text-sm">
           Read More
         </a>
