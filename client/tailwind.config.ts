@@ -3,6 +3,9 @@ import type { Config } from "tailwindcss";
 export default {
   darkMode: ["class"], // enables dark mode when a dark class is applied to an html element
   content: ["./src/**/*.{js,jsx,ts,tsx}"], // tells tailwind where to look for class names in project files
+  future: {
+    hoverOnlyWhenSupported: true, // enables hover styles only on devices that support hover
+  },
   theme: {
     extend: { // this is where most customization happens
       borderRadius: {

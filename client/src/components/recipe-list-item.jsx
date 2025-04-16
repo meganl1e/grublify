@@ -1,34 +1,45 @@
 import React from 'react';
 import Image from './image';
 
-const RecipeListItem = ({ title, slug, user, createdAt, desc, img }) => {
+const RecipeListItem = ({ title, slug, img, tags }) => {
 
   return (
-    <div className="flex flex-col gap-4">
+    <a 
+      href={`/recipes/${slug}`} 
+      className="flex flex-col border-2 border-secondary transition-transform duration-200 ease-in-out hover:scale-105 hover:shadow-lg rounded-md overflow-hidden"
+    >
       {/* Image */}
       <div className="w-full">
         <Image
           src={img}
-          className="w-full h-64 object-cover rounded-2xl"
+          className="w-full h-64 object-cover"
           alt="recipe image"
         />
       </div>
 
       {/* Details */}
-      <div className="flex flex-col gap-2">
-        <a href={`/recipes/${slug}`} className="text-4xl text-secondary font-semibold">
+      <div className="flex flex-col gap-2 p-4 bg-primary/10">
+        <a href={`/recipes/${slug}`} className="text-3xl text-secondary font-semibold hover:underline">
           {title}
         </a>
-        <div className="flex items-center gap-2 text-gray-400 text-sm">
-          <span>Written by {user.username}</span>
-          <span>{new Date(createdAt).toLocaleDateString()}</span>
-        </div>
-        <p className="text-secondary">{desc}</p>
-        <a href={`/recipes/${slug}`} className="underline text-blue-800 text-sm">
-          Read More
-        </a>
+        {/* Tag */}
+        { tags && (
+          <div className="flex flex-wrap gap-2 mt-1">
+            {tags.map((tag) => (
+              <span
+                key={tag}
+                className="text-sm text-primary font-bold bg-white px-3 py-1 rounded-full shadow-sm border-2 border-primary whitespace-normal break-words"
+
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+        
+
       </div>
-    </div>
+    </a>
   );
 };
 
