@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_tests",
+  "info": {
+    "singularName": "category-test",
+    "pluralName": "category-tests",
+    "displayName": "CategoryTest"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "restaurants": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::restaurant.restaurant",
+      "inversedBy": "category_tests"
+    }
+  }
+}
